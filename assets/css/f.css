@@ -1,0 +1,131 @@
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_center {
+    text-align: left;
+}
+
+.featured__body {
+    padding: 40px 40px 80px 40px;
+    display: grid;
+    column-gap: 77px;
+    row-gap: 40px;
+    flex-direction: column-reverse;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.featured__title{
+    font-size: 30px;
+}
+
+@media (max-width:991.98px) {
+    .featured__body {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .featured__title {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .featured__body {
+        margin: 0px -15px;
+        padding: 20px 15px 20px 15px;
+    }
+
+    .featured__title {
+        margin-bottom: 30px;
+    }
+}
+
+.featured__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.images-featured {
+    display: grid;
+    justify-items: center;
+}
+
+.images-featured__item img {
+    max-width: 100%;
+}
+
+.images-featured__item_mini {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -114px;
+}
+
+.content-featured__title {
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 1.35;
+    margin-bottom: 25px;
+}
+
+@media (max-width:767.98px) {
+    .content-featured__title {
+        font-size: 24px;
+    }
+}
+
+.content-featured__text {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.content-featured__options {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 55px;
+}
+
+.options-content-featured__label {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 12px;
+}
+
+.options-content-featured__value {
+    font-size: 17px;
+}
+
+.content-featured__link {
+    background: var(--another-one);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 16px 35px;
+    text-align: center;
+    line-height: 150%;
+    display: block;
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+}
+
+@media (min-width: 991px) {
+    .content-featured__body {
+        flex: 1 1 auto;
+        padding-top: 40px;
+        max-width: 412px;
+    }
+
+    .content-featured__link {
+        max-width: 412px;
+    }
+}
+
+@media (max-width: 479.98px) {
+    .content-featured__options {
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 35px;
+    }
+}
