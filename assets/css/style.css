@@ -2068,7 +2068,7 @@ textarea::-webkit-scrollbar-thumb {
   padding: 50px;
   padding-top: 180px;
   text-align: center;
-  background: url("../images/img3.jpg.webp") center center no-repeat;
+  background: url("../images/ndis-logo.jpg") center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: var(--first-color-lighten);
