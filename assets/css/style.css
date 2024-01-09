@@ -1574,6 +1574,11 @@ a {
   color: #000000;
 }
 
+.footer__bar p{
+  font-weight: 700;
+  font-size: 4rem;
+}
+
 .footer__bar-1 {
   color: #000000;
 }
