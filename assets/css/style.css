@@ -3470,7 +3470,7 @@ time {
   }
 }
 
-.hide{
-  /* display: none; */
+.hide-1{
+  display: none;
   /* visibility: hidden; */
 }
