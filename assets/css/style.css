@@ -538,6 +538,7 @@ a {
 
 .f-img {
   width: 70px;
+  /* display: none; */
 }
 
 .f-img-1 {
@@ -923,7 +924,8 @@ a {
 
 .ndis-1 {
   display: inline-block;
-  width: 50%;
+  /* display: none; */
+  width: 180px;
   align-items: end;
   justify-content: end;
 }
@@ -935,7 +937,7 @@ a {
 
 @media (max-width: 700px) {
   .ndis-1 {
-    width: 100%;
+    width: 90px;
   }
 }
 

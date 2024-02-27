@@ -53,7 +53,7 @@ gsap.from('.nav__list', { opacity: 0, duration: 1.2, delay: 2.4, y: 25 })
 gsap.from('.h21, .h22', { opacity: 0, duration: 3, delay: 2, y: -25 })
 gsap.from('.home__bird-2', 1.2, {opacity: 0, x: 80, delay: 1.2})
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyKcjRpHkJVX8NQ0rB8b2qJsTOGG5ofC32h5xwr-rcUFZojdjcHdwaKuJ7pB4555rh2EQ/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyn_dYQZ8oaVjHxNNtt3uIfLTAPOCqkoiSMw9DNCV3Md5QzPV56cp8JogckkO9yB37IMA/exec'
 const form = document.forms['leadway-contact']
 const msg = document.getElementById("msg")
 
