@@ -1,8 +1,8 @@
 /* TEAM */
 
-Creator: Ani Joseph, Okoli Chibuikem
+Creators: Ani Joseph, Okoli Chibuikem
 URL: https://ceo-dev.vercel.app
-Description: 
+Location: Lagos, Nigeria.
 
 /* THANKS */
 
