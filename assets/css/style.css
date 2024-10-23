@@ -334,7 +334,7 @@ a {
 }
 
 .nav__link a {
-  color: #83a574;
+  color: #5d9543;
 }
 
 .dev {
@@ -343,7 +343,7 @@ a {
 }
 
 .nav__link:hover {
-  background-color: #5d9543;
+  /* background-color: #5d9543; */
   /* color: #fff; */
 }
 
