@@ -56,7 +56,7 @@
               "datePublished": "2023-03-09T12:46:03+00:00",
               "dateModified": "2024-12-1T20:54:38+00:00",
               "description": "Leadways is an NDIS-registered disability care provider for clients in Melbourne. Contact us for a consultation.",
-              "breadcrumb": { "@id": "https://leadways.com.au/#breadcrumb" },
+              <!-- "breadcrumb": { "@id": "https://leadways.com.au/#breadcrumb" }, -->
               "inLanguage": "en-US",
               "potentialAction": [
                 { "@type": "ReadAction", "target": ["https://leadways.com.au/"] }
@@ -119,15 +119,15 @@
         </div>
     </section>
 
-    <body onload="delayer()" class="layer2_class" id="layer2">
+    <body itemtype='https://schema.org/WebPage' itemscope='itemscope' onload="delayer()" class="layer2_class" id="layer2">
         <a href="#" class="scrolltop" id="scroll-top">
             <i class="bx bx-chevron-up scrolltop__icon"></i>
         </a>
 
-        <header class="header">
+        <header class="header" itemtype="https://schema.org/WPHeader" itemscope="itemscope">
             <nav class="nav head-holder">
                 <div class="nav__data">
-                    <a href="https://leadways.com.au/" class="nav__logo">
+                    <a href="https://leadways.com.au/" class="nav__logo" itemtype="https://schema.org/Organization" itemscope="itemscope">
                         <img src="assets/images/leadwaysupport.com.au - Logo-04.png" alt="">
                         <p>Lead<span class="wayy">way</span> <span class="support">Support</span></p>
                     </a>
@@ -138,7 +138,7 @@
                     </div>
                 </div>
         
-                <div class="nav__menu" id="nav-menu">
+                <div class="nav__menu" id="nav-menu" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope">
                     <ul class="nav__list">
                         <li>
                             <a href="https://leadways.com.au/" class="nav__link">Home</a>
@@ -671,7 +671,7 @@
             </section>
         </main>
     
-        <footer class="footer">
+        <footer class="footer" itemtype="https://schema.org/WPFooter" itemscope="itemscope">
             <div class="section__container footer__container">
                 <div class="footer__col">
                     <h3>Lead<span>Way</span> Support</h3>
