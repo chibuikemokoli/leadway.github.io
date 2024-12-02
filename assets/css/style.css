@@ -143,7 +143,7 @@ ul {
 img {
   width: 100%;
   display: block;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 hr {
@@ -581,6 +581,10 @@ a {
   /* display: none; */
 }
 
+.fimg{
+  width: 200px;
+}
+
 .f-img-1 {
   width: 50px;
 }
@@ -588,15 +592,42 @@ a {
 .flags {
   margin-top: -5em;
   padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .flags span {
+  /* align-items: center; */
   display: inline-flex;
   gap: 1rem;
-  padding: 1rem 0;
+  padding: 2rem 2rem 2rem 0;
 }
 
 .flags p {
+  /* padding-left: 10px; */
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.flags2 {
+  /* margin-top: -5em; */
+  /* padding-bottom: 15px; */
+  display: block;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flags2 span {
+  align-items: center;
+  display: inline-flex;
+  gap: 1rem;
+  /* padding: 2rem 2rem 2rem 0; */
+}
+
+.flags2 p {
+  /* padding-left: 10px; */
+  font-weight: 500;
   color: #ffffff;
 }
 
@@ -697,6 +728,9 @@ a {
   .text-box h1 {
     font-size: 35px;
   }
+  .flags, .flags2 {
+    display: block;
+  }
 }
 
 .text-boxc {
@@ -724,6 +758,7 @@ a {
 .about-left img {
   width: 100%;
   display: flex;
+  border-radius: 1rem;
 }
 
 .section__subtitle {
@@ -814,11 +849,17 @@ a {
   gap: 1.5rem;
 }
 
+.bd-grid-1 {
+  display: grid;
+  gap: 1rem;
+}
+
 .about-right-1 {
   width: 100%;
 }
 
 .about-right img {
+  border-radius: 1rem;
   width: 100%;
 }
 
@@ -1272,6 +1313,13 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 
+.section__flags {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
 .section__container1 {
   max-width: var(--max-width);
   margin: auto;
@@ -1698,7 +1746,7 @@ a {
 .why__image img {
   max-width: 400px;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 1rem;
   display: flex;
 }
 
@@ -1805,7 +1853,7 @@ a {
 .footer__bar__content {
   max-width: var(--max-width);
   margin: auto;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2680,7 +2728,7 @@ textarea::-webkit-scrollbar-thumb {
   }
 
   .header-content h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .hico {
